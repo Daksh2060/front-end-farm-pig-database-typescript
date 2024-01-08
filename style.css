@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+h1, h2, h3 {
+    margin-top: 50px;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.more-info-button, .delete-button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.more-info-button {
+    color: green;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.more-info-button:hover {
+    background-color: #e0e0e0;
+}
+
+.delete-button:hover {
+    background-color: #dbdada;
+}
+
+
+#hiddenGraph td, th {
+    text-align: center;
+}
+
+#hiddenGraph{
+    display: none;
+}
+
+#table-body td {
+    text-align: center;
+}
+
+#inputForm input[type="text"],
+#inputForm input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #333;
+}
+
+
+#inputForm select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #333;
+}
+
+#inputForm input[type="text"]:hover,
+#inputForm input[type="number"]:hover,
+#inputForm select:hover {
+    border-color: #007BFF;
+}
+
+#inputForm input[type="text"]:focus,
+#inputForm input[type="number"]:focus,
+#inputForm select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+#input-form-template{
+    display: none;
+}
+
+#add-row {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#add-row:hover {
+    background-color: #f2f2f2;
+}
+
+#save-input {
+    background-color: #fff;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#save-input:hover {
+    background-color: #f2f2f2;
+}
+
+#hide-input {
+    background-color: #fff;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#hide-input:hover {
+    background-color: #f2f2f2;
+}

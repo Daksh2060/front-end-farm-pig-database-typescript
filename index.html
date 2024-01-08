@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h1>Farmer Hoggett's Farm </h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>More Info</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">     
+        </tbody>
+    </table>
+
+    <button id="add-row">Add Pig</button>
+
+    <section id="input-form-template" class="hidden">
+        <h3>Enter Pig Information</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Breed</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Personality</th>
+                    <th>Category</th>
+                    <th id = "dynamic">Swimming (0-100)</th>
+                </tr>
+            </thead>
+            <tbody id = "inputForm">
+                <tr>
+                    <td><input type="text" name="name"/></td>
+                    <td id = "breed_dropdown">
+                        <select name="breed" id="pig-breed">
+                            <option value="Yorkshire Pig">Yorkshire Pig</option>
+                            <option value="Duroc Pig">Duroc Pig</option>
+                            <option value="Landrace Pig">Landrace Pig</option>
+                        </select>
+                    </td>
+                    <td><input type="number" name="height"/></td>
+                    <td><input type="number" name="weight"/></td>
+                    <td><input type="text" name="personality"/></td>
+                    <td>
+                        <select name="category" id="pig-category">
+                            <option value="Grey">Grey Pig</option>
+                            <option value="Chestnut">Chestnut Pig</option>
+                            <option value="White">White Pig</option>
+                            <option value="Black">Black Pig</option>
+                        </select>
+                    </td>
+                    <td><input type="number" name="swimming" id = "dynamicForm"/></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button id="save-input">Save Input</button>
+        <button id="hide-input">Close</button>
+    </section>
+
+    <section Pig id="hiddenGraph">
+        <h3>More Pig Details</h3>
+        <table border = "1">
+            <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Height</th>
+            <th>Weight</th>
+            <th id = "dynamicHeader">Dynamic</th>
+            <th>Personality</th>
+            </tr>
+            <tr>
+            <td id="nameCell"></td>
+            <td id="breedCell"></td>
+            <td id="heightCell"></td>
+            <td id="weightCell"></td>
+            <td id="dynamicCell"></td>
+            <td id="personalityCell"></td>
+            </tr>
+        </table>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.47/system.js"
+        integrity="sha512-mkBpeD76fJnxFHGZstCL0mPCW6E3RFtUzfp5Ye8oQg2rxQNHy4BgHsbmvSizsq3fgF4PGozPI1BzGCB/h1Yq5g=="
+        crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        System.defaultJSExtensions = true
+        System.import("main")     
+    </script>
+
+</body>
+
+</html>
