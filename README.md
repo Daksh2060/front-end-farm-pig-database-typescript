@@ -4,14 +4,13 @@ This typescript project acts as a demo of the usage of Typescript to create data
 
 ## Features
 
-- **Database Sorting:** The database automatically sorts the Pigs by their speicies and colour, so users dont need to worry about organzing. 
+- **Database Sorting:** The database automatically sorts the Pigs by their species and color, so users don't need to worry about organizing. 
 
-- **Pig Class Interface:** The project uses a Pig class interface to allow users to manage and keep track of several similar pigs without mixing them up.
+- **Class Interface:** The project uses a Class interface to allow users to manage and keep track of several similar pigs without mixing them up.
 
-- **JSON Parsing:** Objects are parsed out of local storage on every refresh, and added into storage on every update to the database, allowing users to wquickly leave and enter the program without locisng any stored data.
+- **JSON Parsing:** Objects are parsed out of local storage on every refresh, and added into storage on every update to the database, allowing users to quickly leave and enter the program without losing any stored data.
 
-- **AJAX Form:** Allows for users to dynamically adjust their form for different corresponding pig species without having to update the rest of the web page.
-
+- **AJAX Form:** Allows users to dynamically adjust their form for different corresponding pig species without having to update the rest of the web page.
 
 ## How does it work?
 
