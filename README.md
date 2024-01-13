@@ -1,6 +1,6 @@
 # Local Storage Database in TypeScript
 
-
+This solely typescript project acts a demo in the usage of Typescript to create data objects and store them in a front-end "serverless" database with broswer local storage. The database is aimed at hypotheitcal farmers who may want to keep track of thier different speicies of Pigs, with there being four example specieis included. Each pig can have different charactersitics, and corresponging values to these traits, so each entry is stored as a unqiue object. The program makes use of JSON parsing to stringify and decode objects to and from local storage. The typescript must be compiled using tsc and is run through an HTML interface for the database.
 
 ## Features
 
